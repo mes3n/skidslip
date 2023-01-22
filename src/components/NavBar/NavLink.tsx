@@ -20,10 +20,10 @@ const NavLink: React.FC<NavLinkProps> = ({ icon, path, active }) => {
   const renderIcon = () => {
     if (icon === 'skiier') {
       return <FaSkiing size={40} color='#eee' />
-    } else if (icon === 'contact') {
-      return <FaAddressCard size={40} color='#eee' />
     } else if (icon === 'about') {
       return <FaUser size={40} color='#eee' />
+    } else if (icon === 'contact') {
+      return <FaAddressCard size={40} color='#eee' />
     }
   }
 

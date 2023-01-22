@@ -12,7 +12,6 @@ const NavBar = () => {
 		<Container>
 			<Logo />
 			<NavLinks />
-			{/* <div style={{ background: 'blue', width: 50, height: 50, margin: '15px auto' }}></div> */}
 		</Container>
 	)
 }
