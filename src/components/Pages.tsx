@@ -18,6 +18,7 @@ const Pages = () => {
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='contact' element={<Contact />} />
+            <Route path='*' element={<></>} />
           </Route>
         </Routes>
         <NavBar />
@@ -28,7 +29,7 @@ const Pages = () => {
 
 const Container = styled.div`
 
-  position: absolute;
+  position: fixed;
 
   left: 0;
   top: 0;
@@ -37,6 +38,8 @@ const Container = styled.div`
   height: 100%;
 
   background: #eee;
+
+  overflow: scroll;
 
 `
 

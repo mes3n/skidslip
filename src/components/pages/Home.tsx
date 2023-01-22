@@ -1,8 +1,15 @@
-import { Title, CardContainer } from './Styles'
+import { Title, CardContainer, Card } from './Styles'
+
 
 const Home = () => {
   return (
-    <CardContainer></CardContainer>
+    <CardContainer>
+      <Card>
+        <Title>
+          HOME
+        </Title>
+      </Card>
+    </CardContainer>
   )
 }
 
