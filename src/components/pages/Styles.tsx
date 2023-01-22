@@ -63,38 +63,33 @@ export const Card = styled.div`
   margin-right: 35px;
   margin-left: 35px;
 
-  margin-bottom: 40px;
-
-  display: inline;
+  padding-bottom: 2rem;
 
   background: #f8f8f8;
   border-radius: 20px;
 
   @media screen and (max-width: 800px) {
+    margin-bottom: 4vh;
     width: 80%;
   }
-
 `
 
 export const CardContainer = styled.div`
 
-  position: fixed;
+  position: absolute;
 
-  height: 100%;
+  // height: 92vh;
   width: 100%;
 
   left: 0;
   top: 0;
 
-  // background: red;
-
   display: flex;
+  justify-content: center;
 
-  padding-top: 40px;
-  padding-left: calc(50% - 770px);
-  padding-bottom: 40px;
+  padding-top: 4vh;
 
   flex-wrap: wrap;
 
-  overflow: scroll;
+  // overflow: hidden;
 `
