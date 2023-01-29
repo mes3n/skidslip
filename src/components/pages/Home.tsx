@@ -1,9 +1,13 @@
-import { Title, CardContainer, Card } from './Styles'
-
+import { Title, CardContainer, Card } from '../common'
+import { pageTransitions } from '../transitions'
 
 const Home = () => {
   return (
-    <CardContainer>
+    <CardContainer
+      initial='initial'
+      animate='in'
+      exit='out'
+      variants={pageTransitions}>        
       <Card>
         <Title>
           HOME
@@ -12,6 +16,5 @@ const Home = () => {
     </CardContainer>
   )
 }
-
 
 export default Home
