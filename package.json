@@ -1,5 +1,6 @@
 {
   "name": "skidslip",
+  "homepage": "https://skidslip.svedenheim.se",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

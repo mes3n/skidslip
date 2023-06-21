@@ -9,7 +9,7 @@ const About = () => {
       exit='out'
       variants={pageTransitions}>
       <Card>
-        <Title>Skidslip<Sep /></Title>
+        <Title>Om oss<Sep /></Title>
         <Title2>Vår historia</Title2>
         <ImageWrapper src='skiier.jpg' size='full'/>
         <Text>
@@ -17,7 +17,7 @@ const About = () => {
           I takt med att man växte upp på skidorna blev man allt mer beskyddande över dem och efter ett
           tag var man också tvungen att börja ta hand om dem själv. I tre år slipade vi våra skidor inför
           både träning och tävling. När man inte längre tävlade fanns det istället stora luckor med tid.
-          Därmed startade vi det här, och nu har vi hållt på i fem säsonger.
+          Därmed startade vi det här, och nu har vi hållit på i fem säsonger.
         </Text>
         <Title2>Priser</Title2>
         <Text>
@@ -30,12 +30,12 @@ const About = () => {
           Slipa och valla - 400 kr
         </Text>
         <Text>
-          Annat fixande bestämms utifrån situation
+          Annat fixande bestämmes utifrån situation
         </Text>
         <Title2>Kontakt</Title2>
         <Text>
-          Ifall ni är intreserade av att fixa era skidor kan ni höra av er till ett av våra nummer som
-          finns i kontaktfliken. Ifall ni har specifika önskemål angående gradtal på kantarna är det
+          Ifall ni är intresserade av att fixa era skidor kan ni höra av er till ett av våra nummer som
+          finns i kontaktfliken. Ifall ni har specifika önskemål angående gradtal på kanterna är det
           bara att säga till, annars behåller vi samma gradtal som innan.
         </Text>
       </Card>
@@ -48,12 +48,12 @@ const About = () => {
           så kan jag fixa något liknande till det här. Dessutom får ni jättegärna höra av er ifall ni har förslag
           på hur jag ska förbättra den här hemsidan, källkoden finns på min GitHub som ni hittar i kontaktfliken.
         </Text>
+        <ImageWrapper src='sakura.png'/>
         <Title2>Annat</Title2>
         <Text>
-          Jag programmarar dessutom i Python, C, C++, Dart, (TypeScript) och Rust ifall att ni även råkar finna er i
+          Jag programmerar dessutom i Python, C, C++, Dart, (TypeScript) och Rust ifall att ni även råkar finna er i
           behov av en backend eller fullstack utvecklare.
         </Text>
-        <ImageWrapper src='skiier.jpg' size='full'/>
 
 
       </Card>

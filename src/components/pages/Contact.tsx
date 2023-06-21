@@ -24,12 +24,12 @@ const Contact = () => {
       variants={pageTransitions}>
       <Card>
         <Title>Markus Svedenheim<Sep /></Title>
-        <ImageWrapper src='markus.jpeg' />
+        <ImageWrapper src='headshot.jpeg' />
         <Title2>{Icon('phone')}Telefon</Title2>
         <Text>076-070 40 29</Text>
         <Title2>{Icon('mail')}Email</Title2>
         <Text>markus@svedenheim.se</Text>
-        <Text>markus.svedenheim@gmail.com</Text>
+        {/* <Text>markus.svedenheim@gmail.com</Text> */}
         <Title2>{Icon('github')}GitHub</Title2>
         <Text>källkod: https://github.com/mes3n/skidslip</Text>
         <Text>användarnamn: mes3n</Text>
@@ -37,7 +37,7 @@ const Contact = () => {
       </Card>
       <Card>
         <Title>Elsa Svedenheim<Sep /></Title>
-        <ImageWrapper src='markus.jpeg' />
+        {/* <ImageWrapper src='markus.jpeg' /> */}
         <Title2>{Icon('phone')}Telefon</Title2>
         <Text>079-313 79 09</Text>
         <Title2>{Icon('mail')}Email</Title2>
