@@ -15,6 +15,7 @@ const Pages = () => {
 
   return (
     <Container>
+      <Background />
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
           <Route path='/' element={<Home />} />
@@ -29,7 +30,6 @@ const Pages = () => {
 }
 
 const Container = styled.div`
-
   position: fixed;
 
   left: 0;
@@ -38,10 +38,23 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
 
-  background: #9bb3ff;
+  overflow: scroll;
+`
+
+const Background = styled.div`
+  position: fixed;
+
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
 
   overflow: scroll;
-
+  background-image: url('powder.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
 `
 
 export default Pages

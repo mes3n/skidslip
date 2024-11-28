@@ -1,7 +1,7 @@
 import { HiOutlineMail, HiOutlinePhone } from 'react-icons/hi'
 import { FiGithub } from 'react-icons/fi'
 
-import { Title, Title2, Sep, Text, Card, CardContainer, ImageWrapper } from '../common'
+import { Title, Title2, Sep, Text, Card, CardContainer } from '../common'
 import { pageTransitions } from '../transitions'
 
 const Contact = () => {
@@ -24,16 +24,13 @@ const Contact = () => {
       variants={pageTransitions}>
       <Card>
         <Title>Markus Svedenheim<Sep /></Title>
-        <ImageWrapper src='headshot.jpeg' />
         <Title2>{Icon('phone')}Telefon</Title2>
         <Text>076-070 40 29</Text>
         <Title2>{Icon('mail')}Email</Title2>
         <Text>markus@svedenheim.se</Text>
         {/* <Text>markus.svedenheim@gmail.com</Text> */}
         <Title2>{Icon('github')}GitHub</Title2>
-        <Text>källkod: https://github.com/mes3n/skidslip</Text>
-        <Text>användarnamn: mes3n</Text>
-
+        <Text>källkod - <a href='https://github.com/mes3n/skidslip'>mes3n/skidslip</a></Text>
       </Card>
       <Card>
         <Title>Elsa Svedenheim<Sep /></Title>

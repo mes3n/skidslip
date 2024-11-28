@@ -151,4 +151,4 @@ export const ImageWrapper: React.FC<ImageProps> = ({ src, size }) => {
     </ImageContainer>
   )
 }
-  
+
